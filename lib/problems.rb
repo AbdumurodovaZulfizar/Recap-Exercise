@@ -103,5 +103,3 @@ class Array
         self
   end
 end
-
-[4, 12, 2, 8, 1, 14, 9, 25, 24, 81].bubble_sort
