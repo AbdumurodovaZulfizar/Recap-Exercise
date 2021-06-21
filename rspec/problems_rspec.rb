@@ -1,4 +1,4 @@
-require "problems"
+require "./lib/problems"
 
 describe "least_common_multiple" do
     it "should return the least common multiple of 4 and 10" do

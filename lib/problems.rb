@@ -29,5 +29,24 @@ end
 # Write a method, most_frequent_bigram, that takes in a string and returns the two adjacent letters that appear the
 # most in the string.
 def most_frequent_bigram(str)
-
+  i=0
+  var = ''
+  arr =[]
+  new_hash = {}
+  hash =Hash.new(0)
+  (0...str.length-1).each do |i|
+      var = str[i] + str[i+1]
+      arr << var
+  end
+  arr.each do |ele|
+    hash[ele]+=1
+  end
+  new_hash = hash.sort_by {|k, v| v}
+  return new_hash[-1][0]
 end
+
+# print most_frequent_bigram("thethrillofit")
+# puts 
+# print most_frequent_bigram("gotothemoonsoonforproof")
+# puts
+# print most_frequent_bigram("bananasareanotherfruit")
