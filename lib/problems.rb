@@ -25,3 +25,9 @@ def least_common_multiple(num_1, num_2)
   my_arr = (arr1 - arr2) | (arr2 - arr1)
   return Math.sqrt(my_arr.inject(:*)*array.inject(:*))
 end
+
+# Write a method, most_frequent_bigram, that takes in a string and returns the two adjacent letters that appear the
+# most in the string.
+def most_frequent_bigram(str)
+
+end
