@@ -45,8 +45,9 @@ def most_frequent_bigram(str)
   return new_hash[-1][0]
 end
 
-# print most_frequent_bigram("thethrillofit")
-# puts 
-# print most_frequent_bigram("gotothemoonsoonforproof")
-# puts
-# print most_frequent_bigram("bananasareanotherfruit")
+class Hash
+  # Write a method, Hash#inverse, that returns a new hash where the key-value pairs are swapped
+  def inverse
+
+  end
+end
