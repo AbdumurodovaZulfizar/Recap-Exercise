@@ -44,4 +44,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 Copyright 2021 Zulfizar Abdumurodova
-- [MIT](https://github.com/AbdumurodovaZulfizar/Recap-Exercise/blob/development/README.md) for this project.
+- [MIT](https://github.com/AbdumurodovaZulfizar/Recap-Exercise/blob/development/LICENSE.md) for this project.
