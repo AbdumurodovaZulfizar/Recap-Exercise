@@ -48,6 +48,12 @@ end
 class Hash
   # Write a method, Hash#inverse, that returns a new hash where the key-value pairs are swapped
   def inverse
-
+    hash = {}
+    self.each do |k, v|
+      hash[v] = k
+    end
+    return hash
   end
 end
+
+{"a"=>1, "b"=>2}.inverse
